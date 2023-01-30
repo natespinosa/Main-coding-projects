@@ -1,3 +1,6 @@
+// This code takes as an input regular characters, encripts it into binary, and uses hexadecimal code in order to 
+// develop a matrix QR out of 1's and 0's, correcpondig to 1's as white, and 0's as black.
+
 #include "a2.h"
 
 int bitwise_xor(int value){
