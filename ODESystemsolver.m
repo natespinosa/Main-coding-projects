@@ -1,5 +1,6 @@
+% This function solves a system of two differential equations. It was implemented in MATLAB for it to be plotted. 
+
 function [t, y] = solvesystem_espino98 (x1, x2, t0, tN, x0, h)
-% This function solves a system of two differential equations
 
 s = round(((tN-t0)/h),0); % This will allow us to create our solution vector, rounded to nearest integer
 t = t0:h:tN; % Step size
