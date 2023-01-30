@@ -1,6 +1,10 @@
 """Gomoku starter code: the first section of this code was not created by me (author can be found below), this was my first programming project.
 My own code can be found from line 311.
 Author(s): Michael Guerzhoy with tests contributed by Siavash Kazemian.  Last modified: Oct. 30, 2021
+
+My code plays gomoku against a user. It looks for the next most convenient position on the board given vertain conditions such as bounding, how 
+full the board is, and possible outcomes of the current play.
+
 """
 
 # def is_bounded(board, y_end, x_end, length, d_y, d_x):
