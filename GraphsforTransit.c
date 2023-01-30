@@ -1,7 +1,6 @@
 // This project uses graphs in order to estimate the most optical route from a place to another. It takes as input the "traffic" that exists
-// between any node and analyzes it (among other constraints) to give the most optimal route. 
-
-#include "lab5.h"
+// between any node and analyzes it (among other constraints) to give the most optimal route. It also adds, updates and removes desired nodes 
+// (or stops) accordingy. Among other functions. 
 #define infinity 1000000
 
 int get_idx(Graph * gr, char * node){
