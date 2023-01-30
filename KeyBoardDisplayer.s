@@ -1,5 +1,8 @@
-# loops through 3 messages and displays each with a 5 second interval in between
+# This program reads characters from the keyboard and writes them to the ASCII display. Special characters as included such as whitespace
+# and newline. For this, I used the Keyboard and Display MMIO Simulator. A polling approach was used. This means that the program is constantly 
+# looping over the keyboard inputs and if there is one, it is immediately displayed.
 
+# loops through 3 messages and displays each with a 5 second interval in between
 .global _start
 .text 
 _start:
