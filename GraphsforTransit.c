@@ -1,3 +1,6 @@
+// This project uses graphs in order to estimate the most optical route from a place to another. It takes as input the "traffic" that exists
+// between any node and analyzes it (among other constraints) to give the most optimal route. 
+
 #include "lab5.h"
 #define infinity 1000000
 
