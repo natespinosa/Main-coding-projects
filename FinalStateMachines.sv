@@ -1,3 +1,8 @@
+// I designed an ALU which can be used to calculate equations that involve several additions and multiplications. 
+// To do this, I used control paths and datapaths, which were used to implement more complex hardware designs.
+// It takes in four numbers (A, B, C and D) which are selected in order to perform the following operation: Ax2+ Bx + C
+// It uses a clock and it implements registers, among other technical background. 
+
 module part2(
     input logic Clock,
     input logic Reset,
