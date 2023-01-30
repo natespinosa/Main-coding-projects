@@ -1,3 +1,7 @@
+// This program uses queues and algorith strictures in order to work as a sorter of incoming orders, putting them 
+// in and out the queue whenever they are ordered and delivered. It also opens and closes the restaurant according 
+// to the desired action. 
+
 #include "a1.h"
 
 Restaurant* initialize_restaurant(char* name){ //pointing to struct
