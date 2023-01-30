@@ -1,4 +1,4 @@
-%Exercise 1
+%Used and coded in mathlab in order to create a function that solves an ODE through Eulers Method. 
 
 function [IEM] = ODEsolver(f, t0, tN, y0, h) %calling the function
 % t0 and tN are the start and end points of the interval on which to solve the ODE 
