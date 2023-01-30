@@ -1,3 +1,11 @@
+// This project taskes as an input to the circuit, one out of eight letters, that can be represented as morse code. It decodes the letter and 
+// gives as an output a series of longs (1.5s) and short (.5s) pulses through an LED. Given a clock frequency, the code arranges the outcome 
+// to fullfill the previous need mentioned.
+
+output the appropriate Morse code for that letter to the output DotDashOut using short and
+long pulses. Short (0.5s) pulses represent dots and long (1.5s) pulses represent dashes. The
+time between pulses is 0.5 seconds. Similar to Part 2, you must determine how many cycles
+to count for 0.5 seconds, for a given CLOCK FREQUENCY.
 module part3 #(parameter CLOCK_FREQUENCY=500)(ClockIn, Reset, Start, Letter, DotDashOut, NewBitOut); 
 	input logic ClockIn;
 	input logic Reset;
