@@ -1,3 +1,10 @@
+# This program sorts a list of 32-bit unsigned numbers in ascending order. The first 32-bit number in the list gives the 
+# number of items in the list and the remainder of the entries are the numbers to be sorted. An example of the list the program sorts
+# is as follows:
+# LIST: .word 10, 1400, 45, 23, 5, 3, 8, 17, 4, 20, 33
+# This 1st number in the list indicates the amount of numbers to be sorted. Bubble sort was used to perform the sorting. 
+
+
 # Using bubble sort to order a list of numbers
 .global _start
 .text
