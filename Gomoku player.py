@@ -1,5 +1,5 @@
 """Gomoku starter code: the first section of this code was not created by me (author can be found below), this was my first programming project.
-My own code can be found from line 311.
+My own code can be found from line 195.
 Author(s): Michael Guerzhoy with tests contributed by Siavash Kazemian.  Last modified: Oct. 30, 2021
 
 My code plays gomoku against a user. It looks for the next most convenient position on the board given vertain conditions such as bounding, how 
@@ -191,7 +191,16 @@ def easy_testset_for_main_functions():
     test_detect_row()
     test_detect_rows()
     test_search_max()
+ 
+'''
 
+
+
+My code starts here!
+
+
+
+'''
 def some_tests():
     board = make_empty_board(8)
 
