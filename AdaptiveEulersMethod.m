@@ -1,3 +1,7 @@
+% This code uses an adaptive Eulers method in order to make more precise estimations. The formula is trying to reduce the step size 
+% by estimating the error at the current point in order to keep it constant. If D is too large (exceeds the security factor), it will 
+% change the step size accordingly, being limited by the min and max functions in h.
+
 function [AEM] = exercise4(f, t0, tN, y0, h)
     
     % Parameters
